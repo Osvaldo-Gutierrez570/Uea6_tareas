@@ -4,6 +4,7 @@ let texto1;
 let posX, posY;
 let colorb;
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   color1 = color(255);
@@ -14,14 +15,6 @@ function setup() {
 
 }
 
- if (frase1 === "Presiona X") {
-    stroke(255); // color blanco
-    strokeWeight(2); // grosor de línea
-    line(0, 0, width, height);
-    line(width, 0, 0, height);
-    line(width / 2, 0, width / 2, height);
-    line(0, height / 2, width, height / 2);
-  }
 
 function draw() {
   background(colorb);
@@ -30,6 +23,9 @@ function draw() {
   fill(color1);
   textSize(texto1);
   text(frase1, posX, posY);
+
+
+
 }
 
 function keyPressed() {
@@ -44,13 +40,15 @@ function keyPressed() {
 
   } else if (key === 'p') {
     frase1 = "Presiona W";
-    color1 = color(239, 35, 60);
+    colorb = color(229, 56, 59); // color fondo
+    color1 = color(102, 7, 8);
     texto1 = random(30, 100);
-    posX = 800; //posicion 
-    posY = 500; 
+    posX = random(100, 800); //posicion 
+    posY = random(100, 800); 
 
 
   } else if (key === 'w') {
+    colorb = color(217, 4, 41); // color fondo
     frase1 = "Presiona A";
     color1 = color(0, 255, 0);
     texto1 = random(30, 100);
@@ -60,8 +58,9 @@ function keyPressed() {
 
 
   } else if (key === 'a') {
+    colorb = color(141, 153, 174); // color fondo
     frase1 = "Presiona S";
-    color1 = color(141, 153, 174);
+    color1 = color(217, 4, 41);
     texto1 = random(30, 100);
 
 
