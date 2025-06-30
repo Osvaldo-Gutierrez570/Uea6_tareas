@@ -1,0 +1,3 @@
+Ambos permiten trabajar con la cámara web, aplicar transformaciones e integrar efectos visuales. En p5.js el control se logra escribiendo código, mientras que en TouchDesigner se construye visualmente con nodos y cajas. 
+
+p5 brinda más flexibilidad desde la programación, y TD facilita la experimentación visual rápida. Ambos son útiles, pero sus flujos de trabajo son distintos. TD es sencillo en el sentido que no es necesario programar para logar el resultado, simplemente con las funciones en nodos se construye, mientras que p5 es necesario conocer o buscar el código para realizarlo.
