@@ -8,6 +8,10 @@
 </head>
 <body>
 
+  <video autoplay muted loop id="video-fondo">
+    <source src="assets/fondo.mp4" type="video/mp4">
+  </video>
+
 <h1>Señales de reclutamiento</h1>
     <p><strong>Autores:</strong> Osvaldo Daniel Gutierrez Garcia 
         / Abraham Mejia Angeles 
@@ -29,7 +33,7 @@
 <p>
     A través de testimonios reales y recursos audiovisuales, la instalación propone una 
     experiencia sensible y crítica. El espectador activa videos mediante gestos con la mano, 
-    revelando cómo el deterioro del entorno, la violencia implícita y la falta de oportunidades 
+    revelando cómo el deterioro del entorno y la falta de oportunidades 
     influyen en decisiones forzadas. La violencia no se muestra de forma explícita, sino a 
     través de lo simbólico: el vacío, la repetición y el desgaste.
 </p>
@@ -39,8 +43,14 @@
         pruebas, y presentación. Cada integrante asumió roles específicos en programación, arte sonoro 
         y montaje visual.</p>
 
-    <p><strong>Desarrollo:</strong> Se empleó TouchDesigner para... </p>
-    <p><strong>Software usado:</strong> TouchDesigner, Gemini, Premiere </p>
+<p><strong>Desarrollo:</strong></p>
+<ul>
+  <li>Etapa 1: Desarrollo Audiovisual: Creación y edición de todo el contenido visual y sonoro necesario.</li>
+  <li>Etapa 2: Integración técnica en TouchDesigner: Programación y sincronización de los elementos interactivos y visuales.</li>
+  <li>Etapa 3: Mapeo y pruebas en espacio real: Ajustes y optimizaciones para asegurar la correcta proyección e interacción en el entorno final.</li>
+</ul>
+
+    <p><strong>Software usado:</strong> TouchDesigner, Gemini, PremierePro </p>
 
 
 
@@ -48,138 +58,473 @@
 <h2>Etapa 1: Desarrollo Audiovisual</h2>
 
 <h3>Creación de videos conceptuales con IA</h3>
-<p>
-Se utilizaron prompts en la plataforma <strong>Gemini</strong> para generar 
+<p>Se utilizaron prompts en la plataforma <strong>Gemini</strong> para generar 
 videos con una estética simbólica que representara los contextos clave del 
 reclutamiento infantil: hogar, escuela y calle. Estas piezas exploran visualmente 
-la descomposición del entorno y las emociones que enfrentan los menores.
-</p>
+la descomposición del entorno y las emociones que enfrentan los menores.</p>
+
+<!-- Carrusel--> 
+<div class="splide" id="carrusel-gemini">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Etapa1/Gemini (1).png" alt="Video generado con IA representando un entorno">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa1/Gemini (2).png" alt="Video generado con IA representando un entorno">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa1/Gemini (3).png" alt="Video generado con IA representando un entorno">
+      </li>
+      <li class="splide__slide">
+        <video autoplay muted controls>
+          <source src="assets/Etapa1/ejemplo video ia.mp4" type="video/mp4">
+        </video>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
+</div>
+
 <figure>
-    <img src="assets/2025-07-28 (1).png" alt="Video generado con IA representando un 
-    entorno simbólico" width="680">
     <figcaption>Video generado con IA en Gemini para representar el entorno del hogar 
         deteriorado.</figcaption>
 </figure>
 
+
+
+
 <h3>Integración de testimonios en Premiere Pro</h3>
-<p>
-Con <strong>Premiere Pro</strong> se integraron textos basados en testimonios reales
+<p>Con <strong>Premiere Pro</strong> se integraron textos basados en testimonios reales y datos
  que acompañan a las imágenes generadas. La tipografía y su aparición progresiva 
- buscan generar empatía y reflexión sin recurrir a la violencia explícita.
-</p>
+ buscan generar empatía y reflexión sin recurrir a la violencia explícita.</p>
 <figure>
-    <img src="assets/Photoshop collage capturas/Integracion-de-efectos-Ae.png" 
+    <img src="assets/Etapa1/Integracion-de-efectos-Ae.png" 
     alt="Línea de tiempo con textos en Premiere" width="680">
-    <figcaption>Textos superpuestos a los videos en Premiere, basados en testimonios
+    <figcaption>Textos superpuestos a la linea de tiempo en Premiere, basados en testimonios
          reales.</figcaption>
 </figure>
 
-<h3>Aplicación de efectos visuales (glitch)</h3>
-<p>
-Se aplicaron efectos de <strong>glitch</strong> y distorsión visual para simbolizar el colapso emocional, el trauma y la pérdida de estabilidad que rodean el reclutamiento infantil. El recurso visual también representa la ruptura de la infancia.
-</p>
+<h3>Aplicación de audios</h3>
+<p>Se aplicaron efectos de <strong>audio</strong> y distorsión visual para simbolizar el 
+  colapso emocional, el trauma y la pérdida de estabilidad que rodean el reclutamiento infantil.
+   El recurso visual también representa la ruptura de la infancia.</p>
 <figure>
-    <img src="assets/Photoshop collage capturas/Edicion-de-video.png" 
+    <img src="assets/Etapa1/Edicion-de-video.png" 
     alt="Fotograma con efecto glitch" width="680">
     <figcaption>Fotograma alterado con glitch que representa el vacío y la fragmentación emocional.</figcaption>
 </figure>
 
 <h3>Búsqueda e integración de sonido</h3>
-<p>
-Se trabajó el diseño sonoro con recursos libres y generación de audio por IA, 
+<p>Se trabajó el diseño sonoro con recursos libres y generación de audio por IA, 
 utilizando sonidos ambientales sutiles, para acompañar emocionalmente cada 
-escena sin ser explícitos.
-</p>
+escena sin ser explícitos.</p>
 <figure>
-    <img src="assets/Photoshop collage capturas/Sonidos.png" 
+    <img src="assets/Etapa1/Sonidos.png" 
     alt="Edición de sonido en Premiere o Audition" width="680">
     <figcaption>Diseño sonoro con pistas de audio para acompañar cada entorno de forma simbólica.</figcaption>
 </figure>
 
 <h3>Voz del narrador</h3>
-<p>
-Finalmente, se integró una voz en off como hilo conductor de cada pieza, 
+<p>Finalmente, se integró una voz en off como hilo conductor de cada pieza, 
 con un tono pausado y reflexivo. Este recurso guía la experiencia del 
 espectador y refuerza el mensaje de denuncia social sin recurrir a imágenes 
-violentas.
-</p>
+violentas.</p>
 <figure>
-    <img src="assets/Photoshop collage capturas/Narrador-AI.png" 
+    <img src="assets/Etapa1/Narrador-AI.png" 
     alt="Narración en la línea de audio" width="680">
     <figcaption>Canal de voz del narrador integrado en la línea de tiempo.</figcaption>
 </figure>
 
-</div>
-
-
 <h2>Etapa 2: Integración técnica en TouchDesigner</h2>
-<p>En esta fase se construyó la lógica interactiva del proyecto a través de TouchDesigner, enfocándose en la implementación del gesto "pistola" y la articulación audiovisual de los contextos.</p>
 
-<div>
-  <img src="assets/Touch/gesto pistola.png" alt="Código general de MediaPipe en TouchDesigner" style="width: 680px;">
-  <p><strong>Detección de mano con MediaPipe:</strong> Se integró el modelo para det
-    ectar gestos manuales, como base para toda la interacción.</p>
+<h3>Gestos reconocidos: Puño, pulgar abajo</h3>
+<p>
+Se integró el modelo de MediaPipe a touchdesigner para detectar gestos específicos que funcionan como disparadores 
+audiovisuales. Cada gesto representa un contexto distinto (hogar, escuela o calle).
+</p>
+
+<!-- Carrusel-->
+<div class="splide" id="carrusel-gestos">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Etapa2/gesto pistola.png " alt="Gesto pistola" width="680">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/gesto puño.png" alt="Gesto puño" width="680">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/gesto pulgar abajo.png" alt="Gesto pulgar abajo" width="680">
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
 </div>
 
-<div>
-  <img src="assets/Touch/media pipe.png" alt="Código gesto pistola " style="width: 680px;">
-  <img src="assets/Touch/gesto puño.png" alt="Código gesto puño" style="width: 680px;">
-  <img src="assets/Touch/gesto pulgar abajo.png" alt="Código gesto pulgar abajo" style="width: 680px;">
-  <p><strong>Código personalizado para gesto 'pistola':</strong> Al no estar incluido 
-    directamente en MediaPipe, se codificó manualmente detectando coordenadas 
-    específicas de la mano.</p>
+<figure>
+  <figcaption>Visualización en tres pantallas simultáneas como resultado final de la interacción.</figcaption>
+</figure>
+
+
+
+<h3>Implementación de gesto "pistola"</h3>
+<p>En esta fase se construyó la lógica interactiva del proyecto a través de <strong>TouchDesigner y mediapipe</strong>,
+enfocándose en la implementación del gesto "pistola" por medio de valores y cajas de código</p>
+<figure>
+  <img src="assets/Etapa2/Pistola.png" alt="Código general de MediaPipe en TouchDesigner" width="680">
+  <figcaption>Código general para la integración de detección de gestos con MediaPipe.</figcaption>
+</figure>
+
+
+
+<h3>Asignación de gestos a contextos audiovisuales</h3>
+<p>Cada gesto activa un video con audio específico que representa un entorno afectado por el reclutamiento:
+hogar, escuela o calle.</p>
+
+<!-- Carrusel-->
+<div class="splide" id="carrusel-iconos">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Etapa2/señales.jpg" alt="Gestos base">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/gesto pistola.png" alt="Gesto pistola codigo">
+      </li> 
+      <li class="splide__slide">
+        <video autoplay muted loop controls>
+          <source src="assets/Etapa2/gesto_ pulgar_abajo.mp4" type="video/mp4">
+        </video>
+      </li>
+            <li class="splide__slide">
+        <video autoplay muted loop controls>
+          <source src="assets/Etapa2/gesto_ puño.mp4" type="video/mp4">
+        </video>
+      </li>
+            <li class="splide__slide">
+        <video autoplay muted loop controls>
+          <source src="assets/Etapa2/gesto_ pistola.mp4" type="video/mp4">
+        </video>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
 </div>
 
-<div>
-  <p><strong>Asignación de gesto a contextos audiovisuales:</strong> Cada gesto activa 
-    un video con audio específico que representa un contexto: escuela, hogar o calle.</p>
-      <img src="assets/Touch/salida 3 canales.png" alt="Temporizador de control en TouchDesigner" style="width: 680px;">
+<figure>
+  <figcaption>Asignación de gestos a videos temáticos en tres canales.</figcaption>
+</figure>
 
+
+
+
+<h3>Control temporal de las interacciones</h3>
+<p>Se implementó un sistema de temporizador para sincronizar la duración de las respuestas 
+a cada gesto, asegurando una narrativa ordenada y fluida.</p>
+<figure>
+  <img src="assets/Etapa2/temporizador.png" alt="Temporizador de control en TouchDesigner" width="680">
+  <figcaption>Temporizador visual que controla la duración de cada intervención interactiva.</figcaption>
+</figure>
+
+<h3>Composición collague</h3>
+<p>Se desarrolló un collage digital con el uso de Photoshop y Premiere pro en cada contexto que unifica las respuestas visuales de cada contexto activado, 
+manteniendo la coherencia simbólica de la obra.</p>
+
+<!-- Carrusel-->
+<div class="splide" id="carrusel-collague">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Etapa2/PS1.jpg" alt="Edición collague" width="680">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/PS2.jpg" alt="Edición collague" width="680">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/codigo collague.png" alt="Edición collague" width="680">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa2/collague 3.png" alt="Edición collague" width="680">
+      </li>
+
+      </li>
+            <li class="splide__slide">
+        <video autoplay muted controls>
+          <source src="assets/Etapa2/Derecha filtro.mp4" type="video/mp4">
+        </video>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
+</div> 
+
+<figure>
+  <figcaption>Resultado del collage proyectado en el entorno expositivo.</figcaption>
+</figure>
+
+
+
+<h3>Visualización final de los tres canales</h3>
+<p>La instalación proyecta simultáneamente los tres contextos audiovisuales, 
+respondiendo en tiempo real a los gestos del espectador.</p>
+
+<!-- Carrusel con imagen + videos -->
+<div class="splide" id="carrusel-canales">
+  <div class="splide__track">
+    <ul class="splide__list">
+
+      <!-- Imagen inicial -->
+      <li class="splide__slide">
+        <img src="assets/Etapa2/salida 3 canales.png" alt="Visualización final en 3 pantallas" width="680">
+      </li>
+
+      <!-- Video 1 -->
+      <li class="splide__slide">
+        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+          <iframe src="https://www.youtube.com/embed/UlSbAUpbdNw?si=D3OoMjeETcsgEOE6" 
+                  title="Canal 1 - Video final" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen 
+                  style="position: absolute; top:0; left:0; width:100%; height:100%;">
+          </iframe>
+        </div>
+      </li>
+
+      <!-- Video 2 -->
+      <li class="splide__slide">
+        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+          <iframe src="https://www.youtube.com/embed/YiROuYvynSg?si=HxwV-JZrfcU7Ddxs" 
+                  title="Canal 2 - Video final" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen 
+                  style="position: absolute; top:0; left:0; width:100%; height:100%;">
+          </iframe>
+        </div>
+      </li>
+
+      <!-- Video 3 -->
+      <li class="splide__slide">
+        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+          <iframe src="https://www.youtube.com/embed/a_i-OEyITuY?si=4pjZUWaAyAEMz7Up" 
+                  title="Canal 3 - Video final" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen 
+                  style="position: absolute; top:0; left:0; width:100%; height:100%;">
+          </iframe>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
 </div>
 
-<div>
-  <p><strong>Temporizador:</strong> Se implementó un sistema de tiempo para limitar 
-    y sincronizar la duración de cada intervención del gesto.</p>
-      <img src="assets/Touch/temporizador.png" alt="Temporizador de control en TouchDesigner" style="width: 680px;">
+<figure>
+  <figcaption>Visualización en tres pantallas simultáneas como resultado final de la interacción.</figcaption>
+</figure>
 
+
+
+
+<h2>Etapa 3: Mapeo y pruebas en espacio real</h2>
+
+<h3>Proyección y ajuste de canales en el Salón I11 - UAM Lerma</h3>
+<p>En esta etapa se realizó el mapeo de la salida de cada uno de los tres canales
+en el <strong>Salón I11 de la UAM Lerma</strong>, el cual cuenta con tres proyectores y una
+pantalla panorámica. Mediante el software <strong>TouchDesigner</strong> se configuró la 
+distribución visual, asegurando que cada canal se asignara correctamente a su área 
+de proyección. Además, se llevaron a cabo pruebas de cámara y audio para evaluar 
+la interacción espacial de la pieza y su percepción en un entorno real, permitiendo
+ajustar detalles técnicos antes de la presentación final.</p>
+
+<!-- Carrusel-->
+<div class="splide" id="carrusel-etapa3">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Etapa3/mapeo (1).png" alt="Mapeo de proyecciones en TouchDesigner">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Etapa3/mapeo (2).png" alt="Mapeo de proyecciones en TouchDesigner">
+      </li>
+            <li class="splide__slide">
+        <img src="assets/Etapa3/mapeo (3).png" alt="Mapeo de proyecciones en TouchDesigner">
+      </li>
+            <li class="splide__slide">
+        <img src="assets/Etapa3/mapeo (4).png" alt="Mapeo de proyecciones en TouchDesigner">
+      </li>
+            <li class="splide__slide">
+        <img src="assets/Etapa3/mapeo (5).png" alt="Mapeo de proyecciones en TouchDesigner">
+      </li>
+
+      <li class="splide__slide">
+        <img src="assets/Etapa3/proceso2.jpg" alt="Configuración de proyectores en el Salón I11">
+      </li>
+            <li class="splide__slide">
+        <img src="assets/Etapa3/proceso3.jpg" alt="Configuración de proyectores en el Salón I11">
+      </li>
+
+
+      <li class="splide__slide">
+        <video autoplay muted controls>
+          <source src="assets/etapa3/prueba.MOV">
+        </video>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
 </div>
 
-<div>
-  <img src="assets/Touch/codigo collague.png" alt="Proceso de collage 1" style="width: 680px;">
-  <img src="assets/Touch/collague 3.png" alt="Proceso de collage 2" style="width: 680px;">
-  <p><strong>Composición visual final:</strong> Se desarrolló un collage digital que unifica 
-    las respuestas visuales de cada contexto activado.</p>
+<figure>
+    <figcaption>Proceso de mapeo y pruebas en el Salón I11 de la UAM Lerma, 
+        con distribución de canales, configuración de proyectores y ensayo 
+        de audio y cámara.</figcaption>
+</figure>
+
+
+
+
+<h2>Resultado Final</h2>
+
+<h3>Exposición de la pieza</h3>
+<p>La etapa final consistió en la presentación de la pieza terminada ante un 
+pequeño grupo de personas, como parte de una muestra interna en la 
+<strong>UAM Lerma</strong>. Primero se realizó la instalación en el <strong>Salón I11</strong> la imagen y sonido. 
+Posteriormente, se presento una pequeña exposición de la propuesta audiovisual y la 
+distribución de sus elementos en los tres canales utilizando los tres proyectores 
+y la pantalla panorámica para generar una experiencia inmersiva. </p>
+
+<!-- Video de YouTube responsivo -->
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+  <iframe src="https://www.youtube.com/embed/-vjLxbKDD8k?si=sdmSXkTVIxbz-jtg" 
+          title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen 
+          style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
+  </iframe>
 </div>
 
-<div>
-  <img src="assets/Touch/codigo 3 canales.png" alt="Código general final de TouchDesigner" style="width: 680px;">
-  <p><strong>Vista general del código en TouchDesigner:</strong> Estructura final que 
-    integra detección de gestos, reproducción audiovisual y lógica temporal.</p>
+<!-- Carrusel -->
+<div class="splide" id="carrusel-final">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <img src="assets/Final/coloquio 3.jpg" alt="Proyección en el Salón I11">
+      </li>
+      <li class="splide__slide">
+        <img src="assets/Final/coloquio 3-2.png" alt="Proyección panorámica">
+      </li>
+       <li class="splide__slide">
+        <img src="assets/Final/IMG_7938.JPG" alt="Proyección panorámica">
+      </li>
+       <li class="splide__slide">
+        <img src="assets/Final/IMG_7939.JPG" alt="Proyección panorámica">
+      </li>
+       <li class="splide__slide">
+        <img src="assets/Final/IMG_7940.JPG" alt="Proyección panorámica">
+      </li>
+      <li class="splide__slide">
+        <video autoplay muted controls>
+          <source src="assets/Final/video muestra.mp4" type="video/mp4">
+        </video>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Barra de progreso -->
+  <div class="my-slider-progress">
+    <div class="my-slider-progress-bar"></div>
+  </div>
 </div>
 
-<div>
-  <img src="assets/Touch/salida 3 canales.png" alt="Visualización final en 3 pantallas" style="width: 680px;">
-  <p><strong>Visualización final:</strong> Los tres canales (contextos) se proyectan simultáneamente, respondiendo al gesto en tiempo real.</p>
-</div>
+<figure>
+    <figcaption>Presentación final de la pieza en el Salón I11 de la UAM Lerma, 
+        integrando imagen, sonido y espacio para una experiencia inmersiva.</figcaption>
+</figure>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <h2>Cómo se hizo</h2>
-    <p><strong>Organización:</strong> Se trabajó en fases: ideación, prototipado, desarrollo, 
-        pruebas, y presentación. Cada integrante asumió roles específicos en programación, arte sonoro 
-        y montaje visual.</p>
-
-    <p><strong>Desarrollo:</strong> Se empleó TouchDesigner para... </p>
-    <p><strong>Software usado:</strong> TouchDesigner, Gemini, Premiere </p>
 
 <h2>Links a GitHub y herramientas</h2>
-    <ul>
-        <li><a href="https://github.com">Repositorio en GitHub</a></li>
-        <li><a href="https://github.com/torinmb/mediapipe-touchdesigner">Mediapipe</a></li>
-        <li><a href="https://gemini.google.com/app">Veo Gemini</a></li>
-        <li><a href="https://derivative.ca//">TouchDesigner</a></li>
-    </ul>
+<ul>
+  <li><a href="https://github.com/Bichos-Asociados-Equipo-Eje-Integrador/Ue6_Eje_Integrador" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i> Repositorio en GitHub
+  </a></li>
+  
+  <li><a href="https://github.com/torinmb/mediapipe-touchdesigner" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i> Mediapipe
+  </a></li>
+  
+  <li><a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-star"></i> Veo Gemini
+  </a></li>
+<li>
+  <a href="https://www.youtube.com/playlist?list=PLfq4aFWe-siCVm-ZmUdTqpkN9YfKoY15_" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube"></i> Playlist en YouTube
+  </a>
+</li>
+</ul>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+<!-- Splide.js CSS y JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+<script>
+  function initSplide(id) {
+    var splide = new Splide(id, {
+      pagination: false  
+    });
+
+    var bar = splide.root.querySelector('.my-slider-progress-bar');
+
+    splide.on('mounted move', function () {
+      var end = splide.Components.Controller.getEnd() + 1;
+      var rate = Math.min((splide.index + 1) / end, 1);
+      bar.style.width = String(100 * rate) + '%';
+    });
+
+    splide.mount();
+  }
+
+  initSplide('#carrusel-gemini');
+  initSplide('#carrusel-gestos');
+  initSplide('#carrusel-collague');
+  initSplide('#carrusel-iconos');
+  initSplide('#carrusel-etapa3');
+   initSplide('#carrusel-canales');
+  initSplide('#carrusel-final');
+</script>
 
 </body>
 </html>

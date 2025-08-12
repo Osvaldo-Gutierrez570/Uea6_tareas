@@ -13,6 +13,17 @@ body {
     margin-right: auto;
 }
 
+#video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover; 
+  filter: brightness(0.5); 
+}
+
 /* Título principal */
 h1 {
     font-size: 3em;
@@ -38,8 +49,8 @@ p {
     margin-bottom: 20px;
 }
 
-/* Imágenes y videos  */
-img, video {
+/* Imágenes */
+img {
     display: block;
     margin: 30px auto;
     max-width: 100%;
@@ -91,6 +102,49 @@ figcaption {
     line-height: 1.4;
 }
 
+.splide__slide video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
 
 
+
+
+
+
+
+
+/* Splide progress bar */
+.my-slider-progress {
+  background: #444;
+  height: 3px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.my-slider-progress-bar {
+  background: #ff0033; 
+  height: 100%;
+  transition: width 400ms ease;
+  width: 0;
+}
+
+/* Carrusel general */
+.splide {
+  margin: 40px auto;
+  max-width: 720px;
+}
+
+.splide__slide img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.splide__arrow:hover {
+  background-color: rgba(255, 0, 51, 0.9); 
+}
 
